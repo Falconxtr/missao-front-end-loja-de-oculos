@@ -1,0 +1,27 @@
+header {
+    padding: 10px 15px;
+}
+
+.limita-secao {
+    max-width: 1024px;
+}
+
+img {
+    width: 150px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav a {
+    padding: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
