@@ -1,0 +1,56 @@
+.secaosobre {
+    background-color: #f8f7ff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.sobre-conteudo {
+    margin: 0 auto;
+}
+
+.sobre-conteudo h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.sobre-conteudo div p {
+    line-height: 32px;
+}
+
+/* Seção Cards */
+.sobre-cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-cards div {
+    width: 50%;
+    max-height: 300px;
+    border: 1px solid #a2adad;
+}
+
+.sobre-cards div img {
+    width: 100%;
+    height: 100%;
+}
+
+.sobre-card-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+.sobre-card-texto h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.sobre-card-texto p {
+    font-size: 22px;
+    color: #4a4a4a;
+}

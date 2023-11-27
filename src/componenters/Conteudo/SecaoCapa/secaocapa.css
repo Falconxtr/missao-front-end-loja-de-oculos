@@ -6,10 +6,6 @@
     height: 80vh;
 }
 
-.limita-secao {
-    max-width: 1024px;
-}
-
 .conteudo-capa {
     display: flex;
     flex-direction: column;

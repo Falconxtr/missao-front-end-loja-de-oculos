@@ -1,0 +1,68 @@
+.secaoprodutos {
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Seção Texto */
+.produtos-conteudo {
+    margin: 0 auto;
+}
+
+.produtos-conteudo div h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+/* Seção Cards */
+.cards {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+.card-conteudo {
+    background-color: #f6f6f6;
+    width: calc(50% - 15px);
+    padding: 20px 10px;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards figure:nth-of-type(odd) {
+    margin-right: 30px;
+}
+
+.card-conteudo h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.card-conteudo img {
+    max-height: 150px;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-conteudo p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Seção Lista */
+.lista-conteudo ul {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-conteudo ul li {
+    text-align: left;
+    margin: 5px;
+}

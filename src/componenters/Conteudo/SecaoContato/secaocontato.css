@@ -1,0 +1,53 @@
+.secaocontato {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.contato-conteudo {
+    margin: 0 auto;
+}
+
+.contato-conteudo div h2 {
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.contato-conteudo div p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Seção Cards */
+.contato-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.contato-cards div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: left;
+}
+
+.contato-cards div h3 {
+    font-size: 16px;
+}
+
+.contato-cards div figure {
+    display: flex;
+    margin: 5px 0;
+}
+
+.contato-cards div figure img {
+    width: 18px;
+}
+
+.contato-cards div figure figcaption {
+    font-size: 14px;
+    margin-left: 10px;
+}
