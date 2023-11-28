@@ -9,9 +9,9 @@ export default function Topo() {
             <section className='limita-secao topo'>
                 <img src={Logo} alt="Logo"/>
                 <nav>
-                    <a href="#ID">PRODUTOS</a>
-                    <a href="#ID">SOBRE</a>
-                    <a href="#ID">CONTATO</a>
+                    <a href="#Produtos">PRODUTOS</a>
+                    <a href="#Sobre">SOBRE</a>
+                    <a href="#Contato">CONTATO</a>
                 </nav>
             </section>
         </header>

@@ -6,7 +6,7 @@ import Atendimento from "../../../assets/atendimento.png";
 
 export default function SecaoSobre(){
     return (
-        <section className='secaosobre'>
+        <section className='secaosobre' id="Sobre">
             <div className='limita-secao sobre-conteudo'>
                 <div>
                     <h2>QUEM SOMOS NÓS?</h2>

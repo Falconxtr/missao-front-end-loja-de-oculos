@@ -9,7 +9,7 @@ import Oculos04 from "../../../assets/oculos04.png";
 
 export default function SecaoProdutos() {
     return (
-        <section className='secaoprodutos'>
+        <section className='secaoprodutos' id='Produtos'>
             <div className='limita-secao produtos-conteudo'>
                 <div>
                     <h1>Nossos Produtos</h1>

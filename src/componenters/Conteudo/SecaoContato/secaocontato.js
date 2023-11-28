@@ -10,7 +10,7 @@ import Twitter from "../../../assets/tt.png";
 
 export default function SecaoContato() {
     return (
-        <section className='secaocontato'>
+        <section className='secaocontato' id="Contato">
             <div className='limita-secao contato-conteudo'>
                 <div>
                     <h2>FALE CONOSCO</h2>
