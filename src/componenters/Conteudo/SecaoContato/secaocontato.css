@@ -52,12 +52,6 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 768px){
-    .secaocontato {
-        padding: 60px 20px;
-    }
-}
-
 @media screen and (max-width: 550px){
     .secaocontato {
         padding-left: 10px;
@@ -75,5 +69,11 @@
 
     .contato-cards div figure {
         width: 150px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .secaocontato {
+        padding: 60px 20px;
     }
 }
