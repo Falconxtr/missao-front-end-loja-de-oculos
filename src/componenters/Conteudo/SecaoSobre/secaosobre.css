@@ -54,3 +54,37 @@
     font-size: 22px;
     color: #4a4a4a;
 }
+
+@media screen and (max-width: 768px){
+    .secaosobre {
+        padding: 60px 20px;
+    }
+
+    .sobre-card-texto {
+        padding: 25px;
+    }
+
+    .sobre-card-texto h3 {
+        font-size: 22px;
+    }
+
+    .sobre-card-texto p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .secaosobre {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sobre-cards {
+        flex-direction: column;
+    }
+
+    .sobre-cards div {
+        width: 100%;
+        height: 300px;
+    }
+}

@@ -2,7 +2,7 @@ header {
     padding: 10px 15px;
 }
 
-img {
+.topo img {
     width: 150px;
 }
 
@@ -20,4 +20,18 @@ nav a {
     color: #000;
     font-weight: 500;
     font-size: 18px;
+}
+
+@media screen and (max-width: 550px){
+    .topo {
+        flex-direction: column;
+    }
+    
+    .topo nav {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        padding: 15px 15px 0 15px;
+        border-top: 1px solid #aaadaf;
+    }
 }

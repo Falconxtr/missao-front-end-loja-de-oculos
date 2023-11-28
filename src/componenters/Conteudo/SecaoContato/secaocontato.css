@@ -51,3 +51,29 @@
     font-size: 14px;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 768px){
+    .secaocontato {
+        padding: 60px 20px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .secaocontato {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contato-cards {
+        flex-direction: column;
+    }
+
+    .contato-cards div {
+        
+        align-items: center;
+    }
+
+    .contato-cards div figure {
+        width: 150px;
+    }
+}

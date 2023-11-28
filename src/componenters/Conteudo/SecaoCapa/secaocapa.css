@@ -33,3 +33,24 @@
     line-height: 70px;
     letter-spacing: 3px;
 }
+
+@media screen and (max-width: 768px){
+    .conteudo-capa h1 {
+        font-size: 40px;
+        max-width: 400px;
+    }
+
+    .conteudo-capa p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .capa {
+        background-position: 89% center;
+    }
+
+    .conteudo-capa {
+        background-color: rgba(0,0,0,0.6);
+    }
+}
